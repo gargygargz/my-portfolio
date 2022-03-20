@@ -7,8 +7,8 @@ export const Projects = (props) => {
 				<div className='section-title'>
 					<h2>Projects</h2>
 					<p>
-						Hover over image to display project information and links to deployed
-						application and GitHub repository.
+						Hover over image to display project information and links to
+						deployed application and GitHub repository.
 					</p>
 				</div>
 				<div className='row'>
@@ -23,7 +23,8 @@ export const Projects = (props) => {
 											description={d.description}
 											tech={d.tech}
 											deployed={d.deployed}
-											github={d.github}
+											githubFrontend={d.githubFrontend}
+											githubBackend={d.githubBackend}
 											largeImage={d.largeImage}
 											smallImage={d.smallImage}
 										/>
@@ -32,14 +33,9 @@ export const Projects = (props) => {
 							: 'Loading...'}
 					</div>
 				</div>
-				{/* <div>
-					<a
-						href='https://docs.google.com/document/d/1MsepzkG-IQzSLiXow2lTgjcb8xLpPNtDTAWdAPqe74w/edit#'
-						className='btn btn-custom btn-lg page-scroll'>
-						Resume
-					</a>{' '}
-				</div> */}
-        <div><p></p></div>
+				<div>
+					<p></p>
+				</div>
 			</div>
 		</div>
 	)

@@ -223,6 +223,9 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+.resume-button {
+  /* margin-top: 10px; */
+}
 .intro .overlay {
   /* background: rgba(0, 0, 0, 0.2); */
 }
@@ -375,7 +378,7 @@ header .intro-text {
   margin: 1px -15px 0 -14px;
   padding: 0;
   margin-bottom: 20px;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -406,17 +409,22 @@ header .intro-text {
   transition: all 0.3s;
   font-size: 18px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 900;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
+  margin-top: -40px;
 }
 .hover-bg:hover .hover-text {
   opacity: 1;
+}
+.deployed-link, .github-link {
+  color: #FFD447;
 }
 /* Testimonials Section */
 #testimonials {
@@ -478,9 +486,9 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 40px 0 60px;
+  padding: 40px 0 40px;
   /* background: linear-gradient(to right, #005083 0%, #00072D 100%); */
-  background: linear-gradient(to right, #005083 0%, #39BBB9 100%);
+  background: linear-gradient(to right, #39BBB9 0%, #005083 100%);
   /* background: #000e34; */
   color: rgba(255, 255, 255, 0.75);
 }
@@ -584,7 +592,7 @@ label {
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   text-align: center;
 }
 #contact .social ul li {
@@ -607,7 +615,7 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: white;
   padding: 30px 0;
 }
 #footer p {
@@ -625,4 +633,16 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+.text-loop {
+  color: #DB3EB1;
+}
+
+/* .about-text > h3 {
+  color: #0BD3D3;
+} */
+
+.skills-text {
+  color: #39BBB9;
 }

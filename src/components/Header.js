@@ -41,13 +41,13 @@ export const Header = (props) => {
 										// boundsPadding={0}
 										itemOne={
 											<ReactCompareSliderImage
-												alt='Image one'
+												alt='Greg image one'
 												src={Background1}
 											/>
 										}
 										itemTwo={
 											<ReactCompareSliderImage
-												alt='Image two'
+												alt='Greg image two'
 												src={Background2}
 												style={{ transform: 'scale(1.125)' }}
 											/>
@@ -72,8 +72,10 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p> */}
 								<a
-									href='https://docs.google.com/document/d/1MsepzkG-IQzSLiXow2lTgjcb8xLpPNtDTAWdAPqe74w/edit#'
-									className='btn btn-custom btn-lg page-scroll' target="_blank" rel="noopener noreferrer">
+									target='_blank'
+									rel='noopener noreferrer'
+									href='https://drive.google.com/file/d/1IgK_YMkYynkuXky6zEzNcZvkEsMz7UIe/view?usp=sharing'
+									className='resume-button btn btn-custom btn-lg page-scroll'>
 									Resume
 								</a>{' '}
 							</div>

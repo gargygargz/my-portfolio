@@ -21,6 +21,7 @@ export const Navigation = (props) => {
 							<Typewriter
 								onInit={(typewriter) => {
 									typewriter
+										.start()
 										.typeString('Greg Schaefer')
 										.pauseFor(1000)
 										.deleteAll()
@@ -28,10 +29,15 @@ export const Navigation = (props) => {
 										.pauseFor(1000)
 										.deleteAll()
 										.typeString('Backend developer')
-										.start()
 										.pauseFor(1000)
 										.deleteAll()
 										.typeString('Fullstack developer')
+										.pauseFor(1000)
+										.deleteAll()
+										.typeString('Adventurer')
+										.pauseFor(1000)
+										.deleteAll()
+										.typeString('Photographer')
 										.pauseFor(1000)
 										.deleteAll()
 										.typeString('Pretty cool person')
@@ -48,11 +54,6 @@ export const Navigation = (props) => {
 					className='collapse navbar-collapse'
 					id='bs-example-navbar-collapse-1'>
 					<ul className='nav navbar-nav navbar-right'>
-						{/* <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
-            </li> */}
 						<li>
 							<a href='#about' className='page-scroll'>
 								About
@@ -68,26 +69,20 @@ export const Navigation = (props) => {
 								Skillz
 							</a>
 						</li> */}
-						{/* <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li> */}
 						<li>
 							<a href='#contact' className='page-scroll'>
 								Contact
 							</a>
 						</li>
 						<li>
-              <a href='https://docs.google.com/document/d/1MsepzkG-IQzSLiXow2lTgjcb8xLpPNtDTAWdAPqe74w/edit#' className='page-scroll'>
-                Resume
-              </a>
-            </li>
+							<a
+								target='_blank'
+								rel='noopener noreferrer'
+								href='https://drive.google.com/file/d/1IgK_YMkYynkuXky6zEzNcZvkEsMz7UIe/view?usp=sharing'
+								className='page-scroll'>
+								Resume
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
