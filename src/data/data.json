@@ -4,7 +4,7 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "I am a full stack developer in the San Francisco Bay area with a decade of collaborative, client-facing tech industry experience. I help companies find technical and innovative solutions to achieve their goals. I have an eye for design, a meticulous, user-centric approach, and am curious and constantly challenging myself to cultivate new skills.",
+    "paragraph": "I am a fullstack developer with a decade of collaborative, client-facing experience helping large-scale tech companies find innovative solutions. I have a passion for design, a meticulous, user-centric approach, and am curious and constantly challenging myself to cultivate new skills.",
     "Why": [
       "JavaScript",
       "React",
@@ -25,30 +25,33 @@
   "Projects": [
     {
       "title": "Viben",
-      "description": "TBD",
-      "tech": "React, Express, MongoDB, Mongoose",
-      "deployed": "[ Deployed ]",
-      "github": "[ GitHub ]",
-      "largeImage": "https://gargygargz.github.io/viben-client/",
-      "smallImage": "img/portfolio/Viben_homepage.png"
+      "description": "Web-based app to interactively share photos with the world. It’s a vibe.",
+      "tech": "React | Express | MongoDB | Mongoose",
+      "deployed": "https://gargygargz.github.io/viben-client",
+      "githubFrontend": "https://github.com/gargygargz/viben-client",
+      "githubBackend": "https://github.com/gargygargz/viben-api",
+      "largeImage": "",
+      "smallImage": "img/portfolio/Viben_loggedin.png"
     },
     {
       "title": "Jotit",
-      "description": "TBD",
-      "tech": "React, Express, MongoDB, Mongoose",
-      "deployed": "[ Deployed ]",
-      "github": "[ GitHub ]",
-      "largeImage": "https://house-slytherin.github.io/project-frontend/",
-      "smallImage": "img/portfolio/Jotit_homepage.png"
+      "description": "Have a task to complete? Jotit down with this web-based task-tracking app.",
+      "tech": "React | Express | MongoDB | Mongoose",
+      "deployed": "https://house-slytherin.github.io/project-frontend",
+      "githubFrontend": "https://github.com/house-slytherin/project-frontend",
+      "githubBackend": "https://github.com/house-slytherin/express-api",
+      "largeImage": "",
+      "smallImage": "img/portfolio/Jotit_homepage2.png"
     },
     {
       "title": "Switchbacks",
-      "description": "TBD",
-      "tech": "JavaScript, HTML, CSS Node",
-      "deployed": "[ Deployed ]",
-      "github": "[ GitHub ]",
-      "largeImage": "https://gargygargz.github.io/switchbacks-client/",
-      "smallImage": "img/portfolio/Switchbacks_homepage.png"
+      "description": "Calling all hiking lovers! Keep track of all your favorite trails with this web-based trail tracking app.",
+      "tech": "JavaScript | HTML | CSS | Node",
+      "deployed": "https://gargygargz.github.io/switchbacks-client",
+      "githubFrontend": "https://github.com/gargygargz/switchbacks-client",
+      "githubBackend": "",
+      "largeImage": "",
+      "smallImage": "img/portfolio/Switchbacks_homepage2.png"
     }
   ],
   "Skills": [
@@ -138,7 +141,7 @@
     }
   ],
   "Contact": {
-    "address": "San Francisco Bay Area",
+    "address": "San Francisco Bay Area, CA",
     "phone": "",
     "email": "greg.schaefer2@gmail.com",
     "facebook": "fb.com",

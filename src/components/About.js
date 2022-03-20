@@ -10,14 +10,14 @@ export const About = (props) => {
 						<img
 							src='img/Greg_WY_01-1-1.jpg'
 							className='img-responsive'
-							alt=''
+							alt='Greg Wyoming'
 						/>{' '}
 					</div>
 					<div className='col-xs-12 col-md-6'>
 						<div className='about-text'>
-							<h2>About Me.</h2>
+							<h2>About.</h2>
 							<p>{props.data ? props.data.paragraph : 'loading...'}</p>
-							<h3>developerSkills = () => {<span><TextLoop interval={2000} children={['JavaScript', 'React.js', 'HTML', 'CSS', 'Bootstrap', 'Python', 'Express.js', 'Node.js', 'MongoDB', 'Mongoose', 'Django', 'SQL']} /></span>}</h3>
+							<h3>developer<span className='skills-text'>Skills</span> = () => {<span className='text-loop'><TextLoop interval={2000} children={['JavaScript', 'React.js', 'HTML', 'CSS', 'Bootstrap', 'Python', 'Express.js', 'Node.js', 'MongoDB', 'Mongoose', 'Django', 'SQL']} /></span>}</h3>
 							<div className='list-style'>
 								<div className='col-lg-6 col-sm-6 col-xs-12'>
 									<ul>

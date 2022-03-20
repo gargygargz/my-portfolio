@@ -3,7 +3,7 @@ export const Resume = (props) => {
 		<div id='resume'>
 			<div className='container'>
 				<div className='section-title text-center'>
-					<h2>What our clients say</h2>
+					<h2>Resume</h2>
 				</div>
 				<div className='row'>
 					{props.data
@@ -12,7 +12,7 @@ export const Resume = (props) => {
 									<div className='resume'>
 										<div className='resume-image'>
 											{' '}
-											<img src={d.img} alt='' />{' '}
+											<img src={d.img} alt='resume' />{' '}
 										</div>
 										<div className='resume-content'>
 											<p>"{d.text}"</p>

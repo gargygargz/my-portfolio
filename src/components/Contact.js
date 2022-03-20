@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import { init } from '@emailjs/browser'
+init('6lo5SioRiqiCfXzrh')
 
 const initialState = {
   name: '',
@@ -20,17 +22,21 @@ export const Contact = (props) => {
 	  console.log(name, email, message)
 	  emailjs
 	    .sendForm(
-	      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+	      'gmail_service', 'contact_form', e.target, '6lo5SioRiqiCfXzrh'
+        // 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
 	    )
 	    .then(
 	      (result) => {
 	        console.log(result.text)
+          alert('Email sent successfully!')
 	        clearState()
 	      },
 	      (error) => {
 	        console.log(error.text)
+          alert('Email failed to send, please try again!')
 	      }
 	    )
+      e.target.reset()
 	}
 	return (
 		<div>
@@ -39,7 +45,7 @@ export const Contact = (props) => {
 					<div className='col-md-8'>
 						<div className='row'>
 							<div className='section-title'>
-								<h2>Contact Me.</h2>
+								<h2>Contact.</h2>
 								<p>
 									Want to collaborate? Looking for a dev with mad skills? I’m
 									always open to discussing new projects or partnerships. Send
@@ -69,7 +75,7 @@ export const Contact = (props) => {
 												id='email'
 												name='email'
 												className='form-control'
-												placeholder='Email'
+												placeholder='Email Address'
 												required
 												onChange={handleChange}
 											/>
@@ -127,12 +133,12 @@ export const Contact = (props) => {
 							<div className='social'>
 								<ul>
 									<li>
-										<a href={props.data ? props.data.github : '/'}>
+										<a target="_blank" rel="noopener noreferrer" href={props.data ? props.data.github : '/'}>
 											<i className='fa fa-github'></i>
 										</a>
 									</li>
 									<li>
-										<a href={props.data ? props.data.linkedin : '/'}>
+										<a target="_blank" rel="noopener noreferrer" href={props.data ? props.data.linkedin : '/'}>
 											<i className='fa fa-linkedin'></i>
 										</a>
 									</li>
