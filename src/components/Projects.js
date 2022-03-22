@@ -8,7 +8,7 @@ export const Projects = (props) => {
 					<h2>Projects</h2>
 					<p>
 						Hover over image to display project information and links to
-						deployed application and GitHub repository.
+						deployed application and GitHub repositories.
 					</p>
 				</div>
 				<div className='row'>

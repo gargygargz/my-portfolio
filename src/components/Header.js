@@ -1,4 +1,3 @@
-// import Typewriter from 'typewriter-effect'
 import {
 	ReactCompareSlider,
 	ReactCompareSliderImage,
@@ -16,26 +15,6 @@ export const Header = (props) => {
 					<div className='container'>
 						<div className='row'>
 							<div className=' intro-text'>
-								{/* <div className='col-md-8 col-md-offset-2 intro-text'> */}
-								{/* <div className="typewriter">
-      <Typewriter
-  
-       onInit={(typewriter)=> {
-        
-       typewriter
-        
-       .typeString("FRONTEND DEVELOPER")
-         
-       .pauseFor(1000)
-       .deleteAll()
-       .typeString("BACKEND DEVELOPER")
-       .start()
-       .pauseFor(1000)
-       .deleteAll()
-       .typeString("ALL AROUND COOL PERSON")
-       }}
-       />
-    </div> */}
 								<div className='slider'>
 									<ReactCompareSlider
 										// boundsPadding={0}
