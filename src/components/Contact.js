@@ -47,9 +47,7 @@ export const Contact = (props) => {
 							<div className='section-title'>
 								<h2>Contact.</h2>
 								<p>
-									Want to collaborate? Looking for a dev with mad skills? I’m
-									always open to discussing new projects or partnerships. Send
-									me an email or check out the links below.
+									Holla at me. Send me an email if you'd like to get in touch or check out my GitHub / LinkedIn links below.
 								</p>
 							</div>
 							<form name='sentMessage' validate onSubmit={handleSubmit}>

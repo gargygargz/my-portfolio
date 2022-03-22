@@ -257,6 +257,7 @@ header .intro-text {
 }
 .slider{
   margin-bottom: 40px;;
+  box-shadow: 0 0 50px gray;
 }
 .typewriter {
   font-size: 24px;
@@ -320,7 +321,7 @@ header .intro-text {
   margin-top: 10px;
   background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 50px gray;
 }
 #about p {
   line-height: 24px;
@@ -379,6 +380,7 @@ header .intro-text {
   padding: 0;
   margin-bottom: 20px;
   margin-top: -40px;
+  box-shadow: 0 0 50px gray;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
